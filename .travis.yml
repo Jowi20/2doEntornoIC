@@ -23,6 +23,6 @@ deploy:
   keep-history: true
   api_key: 
     secure: bf8b0dac-b480-436c-917d-3f505281a389
-    app: myapp
+  app: myapp
   on:
     repo: Jowi20/2doEntornoIC
