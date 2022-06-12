@@ -21,7 +21,7 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep-history: true
-  api_key: 1d6dafc0-24a4-49b8-9c95-42c31f9d9f29
+  api_key: 7655d2a1-92e0-4585-bd5f-8d4a3889707e
   app: myapp
   on:
     repo: Jowi20/2doEntornoIC
