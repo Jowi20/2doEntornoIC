@@ -13,6 +13,10 @@ script:
 notifications:
   slack: entornodeinte-7kl4185:OnZhSXGPrVTsAaM4xsp28SXY
 
+
+before_deploy:
+  - rvm $(travis_internal_ruby) --fuzzy do ruby -S gem install faraday -v 1.8.0
+
 deploy:
   provider: heroku
   skip_cleanup: true
@@ -21,3 +25,4 @@ deploy:
   app: myapp
   on:
     repo: Jowi20/2doEntornoIC
+    branch: master
