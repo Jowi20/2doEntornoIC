@@ -22,7 +22,7 @@ deploy:
   skip_cleanup: true
   keep-history: true
   api_key: 
-    secure: secure: "dumCo55LFwvsnyb9WJc1drtpHzd2kIp3XwEd6/gXSgTY0gG7+yHqEvS6uD+xMfAosdm1WVVpVelOuioHB0mYSlHnT/I8mYLW4ffRXXdKSYbKfeQ2R/iMB1OV7MXWPFPoEHEWKowHOW4N5bl3hIbGC2krVXyR3ouVY81LZGO5gG170Jzjh+txl8ISYAYZrXLcTIXmJfcZXJFNxcDKf7ahS+pAWUMUKt8D7cpN75rfK3e8z62K2l4NC4ZAIUGmwBwaihvT+46fzehR46kZQBG20nJGHe3MPuywUC5DtF/b9CD5SQH7e4LtA97ileB2iwt4Y4+/rCjaM8QZbjTuNwVDAXeFqiq9w3331nOgrJUmhzxqcfNncUw2AJ02qAAar1Wre4uT/irgoJeOuex4tG9YJ212DOYoK4NkfA9iSNQYQAsrr4xfOqXk0450U+YlyvVPNXbs3k4uzUfbVruFoH0jzxf9noRaf8e8YExDoOrHYBB89eomw/9y1wWhXsCqITSGjjy+YrNIlPV2MQauuBBVRx4oEr1mIxSX/MbzzTgRtlHnCofni0Dl7weG7cq4lOxhvx/W06dGXvHMc3R9r925F2a2T1zrZDolRJQwieoz+TV4jR/RPpQgeGmymFnGZv0W/qqRizJdF8mZCeEjI7xyAaZjI/v7TL0akQmPD1tdqmI="
+    secure: d31376e4-a904-4cd7-9872-b9afb6cd3084
   app: myapp
   on:
     repo: Jowi20/2doEntornoIC
