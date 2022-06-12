@@ -21,8 +21,8 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep-history: true
-  api_key: 7655d2a1-92e0-4585-bd5f-8d4a3889707e
+  api_key: 
+    secure: 7655d2a1-92e0-4585-bd5f-8d4a3889707e
   app: myapp
   on:
     repo: Jowi20/2doEntornoIC
-    branch: master
