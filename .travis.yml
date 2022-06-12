@@ -13,3 +13,11 @@ script:
 notifications:
   slack: entornodeinte-7kl4185:OnZhSXGPrVTsAaM4xsp28SXY
 
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  keep-history: true
+  api_key: 1d6dafc0-24a4-49b8-9c95-42c31f9d9f29
+  app: myapp
+  on:
+    repo: Jowi20/2doEntornoIC
